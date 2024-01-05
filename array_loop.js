@@ -46,7 +46,7 @@ for (const [new_names_map,values] of names_friends ) {
 };
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // for each
-
+// for each doesn't return any values 
 
 const food = ["burger", "pizza", "biriyani", "mutton"];
 food.forEach((items) => {
