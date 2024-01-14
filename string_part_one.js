@@ -19,5 +19,9 @@ const url = "http://google.com/walid20%";
 // console.log(url.includes('google'));
 let name = "walid sarker ali";
 // console.log(name.split(" "));
-console.log(url.toUpperCase());
+// console.log(url.toUpperCase());
 //it converts all charecters uppercase in a string
+let userName = 'Al Walid Sarker';
+// console.log(userName.startsWith('A'));
+// console.log(userName.endsWith('r'));
+// console.log(userName.repeat(2));
