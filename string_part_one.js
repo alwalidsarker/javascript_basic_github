@@ -25,3 +25,4 @@ let userName = 'Al Walid Sarker';
 // console.log(userName.startsWith('A'));
 // console.log(userName.endsWith('r'));
 // console.log(userName.repeat(2));
+// console.log(userName.split(' '));
