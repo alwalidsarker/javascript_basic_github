@@ -34,3 +34,26 @@ sortArrNum.sort(function(x,y){
 });
 // sortArrNum.reverse()
 console.log(sortArrNum);
+//use case of break in array_loop
+let foodz = ['food','burger','pizza','hotmusifk'];
+for(let i = 0; i < foodz.length; i++){
+  if( foodz[i] === 'pizza'){
+    break;
+  };
+  console.log(foodz[i]);
+}
+//finding number from a array in ES5
+let numbers = [1,2,3,4,5];
+let found = numbers.map(function(number){
+  return number === 4;
+});
+console.log(numbers[found.indexOf(true)]);
+// console.log(found.indexOf(true));
+// console.log(found);
+//[ false, false, false, true, false ] is ans because 'map' itrates through the numbers array
+
+//upper this is shorted in here
+let foundAgain = numbers.findIndex(function(number){
+  return number === 4;
+});
+// console.log(numbers[foundAgain]);

@@ -16,7 +16,7 @@ function globalFunction() {
 // In a browser, this will refer to the global object (window)
 
 // (2) object method
-// If a function is a method of an object, this refers to the object on which the method is called.
+// If a function is a method of an object, 'this' refers to the object on which the method is called.
 let user = {
   nameM : 'walid',
   method : function(){
